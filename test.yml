@@ -1,0 +1,7 @@
+---
+- name: first play
+  hosts: all
+  tasks:
+    - name: "first message"
+      debug:
+        msg: "Hello Welcome .! {{ ansible_host }}"
